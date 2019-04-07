@@ -1,0 +1,67 @@
+body {
+    background: url("../images/bg-img.jpg");
+    background-size: cover;
+}
+
+#trivia .container .questions-answers-container {
+    background: rgb(218, 164, 18);
+    height: 100%;
+    padding: 20px;
+
+}
+
+
+#trivia .container .questions-answers-container .trivia-header-title {
+    text-align: center;
+    font-size:50px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+}
+
+#trivia .container .questions-answers-container .questions-container .variants .variant .variant-num ,
+#trivia .container .questions-answers-container .questions-container .variants .variant .question-num{ 
+    font-size:17px;
+    float: left;
+    margin-right: 5px;
+}
+
+
+
+
+#trivia .container .questions-answers-container .start-btn,
+#trivia .container .questions-answers-container .submit-btn{
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    font-size: 25px;
+    border: 0.5px solid #DAA419;
+    border-radius: 13px;
+    background: #000;
+    color: #DAA419;
+    margin: 80px auto;
+    display: block;
+    box-sizing: border-box;
+}
+
+
+#trivia .container .questions-answers-container .submit-btn {
+   display: none;
+}
+#trivia .container .questions-answers-container .timer-text {
+    text-align: center;
+    font-size:20px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    margin-top:10px;
+}
+
+#trivia .container .questions-answers-container .description-header,
+#trivia .container .questions-answers-container .correct-answers-text,
+#trivia .container .questions-answers-container .wrong-answers-text,
+#trivia .container .questions-answers-container .unanswered-text {
+    display: none;
+    text-align: center;
+    font-size: 25px;
+
+}
+
