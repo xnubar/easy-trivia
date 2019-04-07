@@ -14,7 +14,6 @@ var minutes, seconds;
 
 
 var audio = new Audio("./assets/musics/start.mp3")
-audio.play();
 
 function randomIndex(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) * min;
@@ -100,7 +99,7 @@ function countdown() {
 }
 $(document).on("click", ".start-btn", function () {
 
-
+    audio.play();
     $.ajax({
         url: queryUrl,
         method: 'GET'
