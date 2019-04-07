@@ -122,6 +122,13 @@ $(document).on("click", ".start-btn", function () {
 
 })
 
+$(document).on("load",function(){
+    $("body").css({
+        "background":"./assets/images/bg-img.jpg",
+        "background-size":"cover"
+    })
+})
+
 
 
 $(document).on("click", ".variant-num", function () {
