@@ -1,4 +1,7 @@
-
+body {
+    background: url("../images/bg-img.jpg");
+    background-size:cover;
+}
 #trivia .container .questions-answers-container {
     background: rgb(218, 164, 18);
     height: 100%;

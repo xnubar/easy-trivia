@@ -14,7 +14,7 @@ var minutes, seconds;
 
 
 var audio = new Audio("./assets/musics/start.mp3")
-audio.play();
+
 
 function randomIndex(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) * min;
@@ -120,13 +120,6 @@ $(document).on("click", ".start-btn", function () {
 
 
 
-})
-
-$(document).on("load",function(){
-    $("body").css({
-        "background":"./assets/images/bg-img.jpg",
-        "background-size":"cover"
-    })
 })
 
 
